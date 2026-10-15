@@ -1,0 +1,24 @@
+# Байт-код Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Виртуальные окружения
+venv/
+env/
+ENV/
+
+# Настройки IDE
+.vscode/
+.idea/
+*.swp
+
+# Логи и кэш
+*.log
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Операционные системы
+.DS_Store
+Thumbs.db
