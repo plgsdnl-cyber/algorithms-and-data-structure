@@ -15,7 +15,7 @@ class MyArray:
     def get(self, index):
         if 0 <= index < len(self.data):
             return self.data[index]
-        raise IndexError("Index out of range")
+        raise IndexError("индекс вне рамок")
 
     def size(self):
         return len(self.data)
